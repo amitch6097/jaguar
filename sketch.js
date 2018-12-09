@@ -10,8 +10,11 @@ function makeText(value){
 
 // GETS CALLED ONCE
 function setup() {
-  jaguar = new Jaguar(windowWidth, $('#grass').height())
-  createCanvas(1000, 1000);
+  $('body').css('height', windowHeight);
+  $('#grass').css('height', windowHeight);
+
+  jaguar = new Jaguar(windowWidth, $('#grass').height());
+  createCanvas(windowWidth, windowHeight);
   initDatabase(makeText);
 }
 
