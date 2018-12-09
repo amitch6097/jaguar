@@ -1,8 +1,25 @@
 #jaguar{
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   height:100px;
   width:260px;
+}
+
+#hits{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border: dashed 2px black;
+  font-size: 100px;
+  font-family: 'Bungee', cursive;
+  margin: 0px;
+  color: #4b5320;
+}
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 body{

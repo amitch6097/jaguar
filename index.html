@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>tiger</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      // TODO: Replace with your project's customized code snippet
+      var config = {
+        apiKey: "AIzaSyDFfZMdvaE26DsPj5hQxQo8biavDXzfwTo",
+        authDomain: "jaguar-4ab9c.firebaseapp.com",
+        databaseURL: "https://jaguar-4ab9c.firebaseio.com/",
+        projectId: "jaguar-4ab9c",
+        messagingSenderId: "jaguar-4ab9c",
+      };
+    </script>
+    <script src="database.js" type="text/javascript"></script>
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -17,7 +31,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top; z-index: 10} </style>
   </head>
   <body>
     <div id="grass">
